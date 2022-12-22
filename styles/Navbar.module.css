@@ -1,0 +1,27 @@
+.container {
+  /* background-color: red; */
+  /* background-color: green; */
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  border-radius: 6px;
+  /* box-shadow: 4px 6px 3px; */
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+.midiv {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.icondiv {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+ 
+}

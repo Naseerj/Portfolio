@@ -1,5 +1,6 @@
-.container {
+/* .container {
   padding: 0 2rem;
+  background-color: green;
 }
 
 .main {
@@ -126,4 +127,31 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+.btn1 {
+  /* padding: 10px; */
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  /* background-color: slategrey; */
+  background-color: #d16b86;
+  /* border: none; */
+  border: 5px solid #d16b86;
+}
+.btn2 {
+  /* padding: 10px; */
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  background-color: #f6f7f9;
+  border: 2px solid #d16b86;
+
+}
+
+.btn2:hover{
+  background-color: #d16b86;
+  /* transition-delay: 5s; */
+  transition: 1.2s;
+  /* transition: 50ms; */
 }
