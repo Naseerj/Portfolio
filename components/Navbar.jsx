@@ -12,10 +12,10 @@ const Navbar = () => {
             <a href="">About</a>
             <a href="">Projects</a>
             <a href="">Blog</a>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
         </div>
             <div className={styles.icondiv}>
-                <img src='/twitter.svg'  />
+                <img className={styles.twitter} src='/twitter.svg'  />
                 <img src="/instagram.svg" alt="" />
                 <img src="/mail.svg" alt="" />
                 <img src="/github.svg" alt="" />

@@ -10,6 +10,7 @@
   width: 80%;
   height: 50px;
   border-radius: 6px;
+  /* position: fixed; */
   /* box-shadow: 4px 6px 3px; */
   /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
 }
@@ -24,4 +25,9 @@
   justify-content: space-between;
   width: 150px;
  
+}
+
+.twitter:hover{
+  transform: translateY(-5px);
+  transition: 1s;
 }
