@@ -11,9 +11,10 @@ export default function Home() {
       <div className={styles.container}>
         <div>
           <h1 className={styles.title}>I am a developer.</h1>
-          <p>
+          <p className={styles.para}>
             Hii! I'm Naseer, a developer based in Lagos,Nigeria, I am constantly
-            learning and adapting to the ever-evolving world of technology.{" "}
+            learning and adapting to the ever-evolving world of technology.I
+            will love to work with you
           </p>
           <div className={styles.btndiv}>
             <button className={styles.btn1}>See Projects</button>
@@ -21,6 +22,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.projects}>
+          <img className={styles.naseer} src="/Naseer2.jpg" alt="" />
           <img className={styles.check} src="/check-circle.svg" alt="" />
           <div className={styles.textdiv}>
             <h2 className={styles.text1}>30+</h2>
@@ -90,6 +92,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className={styles.grid}>
         <div className={styles.webdev}>
           <img className={styles.webdevimg} src="/icon-1.svg" alt="" />
@@ -132,7 +135,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-      {/* PROJECS SECION */}
+      {/* PROJECTS SECION */}
+
+      <a href="" id="project"></a>
       <div className={styles.flex2}>
         <div>
           <h1>Latest Projects</h1>
@@ -184,17 +189,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.project2}>
-        <img className={styles.proj2pic} src="/Metabnb.svg" alt="" />
-        <div className={styles.proj2text}>
+      <div className={styles.project3}>
+        <img className={styles.proj3pic} src="/Metabnb.svg" alt="" />
+        <div className={styles.proj3text}>
           <h1>MetaBnb</h1>
           <h3>
-          This is website for buying/renting metaverse homes.It supports dogecoin payment.It shows varieties of homes available,rating and how far they are.
+            This is website for buying/renting metaverse homes.It supports
+            dogecoin payment.It shows varieties of homes available,rating and
+            how far they are.
           </h3>
           <div>
             <button>REACT</button>
           </div>
-          <div className={styles.direct2}>
+          <div className={styles.direct3}>
             <h2>
               <a href="">See Project</a>
             </h2>
@@ -202,6 +209,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className={styles.devdiv}>
+        <h1>Still in development</h1>
+        <hr className={styles.hr} />
+      </div>
+      <div className={styles.project4}>
+        <img className={styles.proj4pic} src="/Postit.svg" alt="" />
+        <div className={styles.proj4text}>
+          <h1>POSTIT</h1>
+          <h3>
+            This is blog website that allows both writers and readers work.CRUD
+            operations for writers can be performed to create story, delete
+            story and update. There is a section where you can read all stories
+          </h3>
+          <div>
+            <button>REACT</button>
+            <button>MONGODB</button>
+            <button>NODE</button>
+          </div>
+          <div className={styles.direct4}>
+            <h2>
+              <a href="">See Project</a>
+            </h2>
+            <img src="/arrow-right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.project5}>
+        <img className={styles.proj5pic} src="/CRAPPO.svg" alt="" />
+        <div className={styles.proj5text}>
+          <h1>CRAPPO</h1>
+          <h3>This is a cryptocurrency website</h3>
+          <div>
+            <button>REACT</button>
+            <button>MONGODB</button>
+            <button>NODE</button>
+          </div>
+          <div className={styles.direct5}>
+            <h2>
+              <a href="">See Project</a>
+            </h2>
+            <img src="/arrow-right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      {/* CONTACT FORM */}
       <div className={styles.form}>
         <div className={styles.textdiv}>
           <img className={styles.messagebox} src="/icon-5.svg" alt="" />

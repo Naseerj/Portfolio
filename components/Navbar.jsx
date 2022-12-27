@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className={styles.midiv}>
             <a href="">Home</a>
             <a href="">About</a>
-            <a href="">Projects</a>
+            <a href="#project">Projects</a>
             <a href="">Blog</a>
             <a href="#contact">Contact</a>
         </div>
