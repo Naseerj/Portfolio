@@ -10,16 +10,30 @@
   width: 80%;
   height: 50px;
   border-radius: 6px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 6;
   /* position: fixed; */
   /* box-shadow: 4px 6px 3px; */
   /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
 }
+
+ /* .container.active{
+  background-color: red;
+  color: blue;
+  margin-top: 50px;
+
+} */
+
 .midiv {
   width: 400px;
   display: flex;
   justify-content: space-between;
   color: black;
 }
+
 .icondiv {
   display: flex;
   justify-content: space-between;

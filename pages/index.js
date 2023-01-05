@@ -3,9 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  const app = "Ayo";
-  const app1 = app.substring(0, 3);
-  console.log(app1);
+  // const app = "Ayo";
+  // const app1 = app.substring(0, 3);
+  // console.log(app1);
   return (
     <div>
       <div className={styles.container}>
@@ -53,6 +53,11 @@ export default function Home() {
               <div className={styles.progressfill1}></div>
               <div className={styles.progressfill2}></div>
             </div>
+          </div>
+          <div>
+            <progress  className={styles.pr} max='100'  value='60'>
+
+            </progress>
           </div>
           <div>
             <div className={styles.flex10}>
