@@ -24,15 +24,15 @@ const Navbar = () => {
     }else{
       console.log('warming')
       navbarRef.current.style.width = '80%'
-      navbarRef.current.style.position = 'none'
+      navbarRef.current.style.position = 'relative'
     }
-    // if (scroll > 200) {
-    //   console.log("after 200");
-    // } else {
-    //   console.log("nothing");
-    // }
   };
-
+  // if (scroll > 200) {
+  //   console.log("after 200");
+  // } else {
+  //   console.log("nothing");
+  // }
+  
   useEffect(() => {
     window.addEventListener("scroll", navChange);
   });

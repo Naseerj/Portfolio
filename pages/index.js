@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className={styles.container}>
-        <div>
+        <div className={styles.parawhole}>
           <h1 className={styles.title}>I am a developer.</h1>
           <p className={styles.para}>
             Hii! I'm Naseer, a developer based in Lagos,Nigeria, I am constantly
@@ -41,7 +41,7 @@ export default function Home() {
             with other systems{" "}
           </h3>
         </div>
-        <div>
+        <div className={styles.percentages}>
           <div>
             <div className={styles.flex1}>
               <h2>Web Design</h2>
@@ -54,11 +54,10 @@ export default function Home() {
               <div className={styles.progressfill2}></div>
             </div>
           </div>
-          <div>
+          {/* <div>
             <progress  className={styles.pr} max='100'  value='60'>
-
             </progress>
-          </div>
+          </div> */}
           <div>
             <div className={styles.flex10}>
               <h2>Mobile Design</h2>
@@ -165,7 +164,7 @@ export default function Home() {
           </div>
           <div className={styles.direct2}>
             <h2>
-              <a href="">See Project</a>
+              <a href="https://timely-daffodil-f8e9a9.netlify.app/">See Project</a>
             </h2>
             <img src="/arrow-right.svg" alt="" />
           </div>
@@ -254,7 +253,7 @@ export default function Home() {
           </div>
           <div className={styles.direct5}>
             <h2>
-              <a href="">See Project</a>
+              <a href="https://crappo-sable.vercel.app/">See Project</a>
             </h2>
             <img src="/arrow-right.svg" alt="" />
           </div>
@@ -266,7 +265,7 @@ export default function Home() {
         <div className={styles.textdiv}>
           <img className={styles.messagebox} src="/icon-5.svg" alt="" />
           <a href="" id="contact"></a>
-          <h1>If you like what you see let's work together</h1>
+          <h1 className={styles.messageboxh1}>If you like what you see let's work together</h1>
           <p>
             I bring rapid solutions to make the life of my clients easier. Have
             any questions? Reach out to me from this contact form and will get
