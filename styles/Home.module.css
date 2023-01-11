@@ -212,14 +212,12 @@
   background-color: white;
   border-radius: 20px;
   border: 1px solid black;
-
 }
 .pr::-webkit-progress-value {
   background-color: #9ec3e7;
   /* border-radius: 20px; */
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
-
 }
 .range1[type="range"]::-webkit-slider-thumb {
   /* visibility: hidden; */
@@ -599,241 +597,456 @@
 }
 
 @media (max-width: 1320px) {
-  .webdev{
+  .webdev {
     width: 250px;
   }
-  .proj1pic{
+  .proj1pic {
     width: 500px;
   }
 }
 
 @media (max-width: 1280px) {
-  .proj1pic{
+  .proj1pic {
     width: 550px;
   }
-  .proj1text{
+  .proj1text {
     width: 470px;
   }
-  .proj2pic{
+  .proj2pic {
     width: 550px;
+  }
+  .proj2text {
+    width: 470px;
+  }
+  .proj3pic {
+    width: 550px;
+  }
+  .proj3text {
+    width: 470px;
+  }
+  .proj4pic {
+    width: 550px;
+  }
+  .proj4text {
+    width: 470px;
+  }
+  .proj5pic {
+    width: 550px;
+  }
+  .proj5text {
+    width: 470px;
+  }
 
-  }
-  .proj2text{
-    width: 470px;
-  }
-  .proj3pic{
-    width: 550px;
-  }
-  .proj3text{
-    width: 470px;
-  }
-  .proj4pic{
-    width: 550px;
-  }
-  .proj4text{
-    width: 470px;
-  }
-  .proj5pic{
-    width: 550px;
-  }
-  .proj5text{
-    width: 470px;
-  }
- 
-  .para{
+  .para {
     font-size: 23px;
   }
-  .parawhole{
+  .parawhole {
     width: 500px;
   }
-  .inps{
+  .inps {
     width: 600px;
   }
-  .inp1{
+  .inp1 {
     width: 250px;
   }
-  .inp2{
+  .inp2 {
     width: 250px;
   }
-  .inp1div{
+  .inp1div {
     width: 600px;
   }
-  .inp3{
+  .inp3 {
     width: 570px;
     height: 150px;
   }
 }
 
 @media (max-width: 1234px) {
-   .projects{
+  .projects {
     width: 550px;
   }
-  .what{
+  .what {
     width: 400px;
   }
 }
 @media (max-width: 1156px) {
-  .inps{
+  .inps {
     width: 550px;
   }
-  .inp1{
+  .inp1 {
     width: 230px;
   }
-  .inp2{
+  .inp2 {
     width: 230px;
   }
-  .inp1div{
+  .inp1div {
     width: 560px;
   }
-  .inp3{
+  .inp3 {
     width: 530px;
     height: 150px;
   }
-  .messageboxh1{
+  .messageboxh1 {
     font-size: 27px;
   }
-  .proj1pic{
+  .proj1pic {
     width: 500px;
   }
-  .proj1text{
+  .proj1text {
     width: 450px;
   }
-  .proj2pic{
-    width: 500px;
-
-  }
-  .proj2text{
-    width: 450px;
-  }
-  .proj3pic{
+  .proj2pic {
     width: 500px;
   }
-  .proj3text{
+  .proj2text {
     width: 450px;
   }
-  .proj4pic{
+  .proj3pic {
     width: 500px;
   }
-  .proj4text{
+  .proj3text {
     width: 450px;
   }
-  .proj5pic{
+  .proj4pic {
     width: 500px;
   }
-  .proj5text{
+  .proj4text {
     width: 450px;
   }
-
+  .proj5pic {
+    width: 500px;
+  }
+  .proj5text {
+    width: 450px;
+  }
 }
 @media (max-width: 1140px) {
-  .webdev{
+  .webdev {
     width: 200px;
     /* text-align: left; */
   }
-  .inps{
+  .inps {
     width: 520px;
   }
-  .inp1{
+  .inp1 {
     width: 200px;
   }
-  .inp2{
+  .inp2 {
     width: 200px;
   }
-  .inp1div{
+  .inp1div {
     width: 530px;
   }
-  .inp3{
+  .inp3 {
     width: 500px;
     height: 150px;
   }
-  .messageboxh1{
+  .messageboxh1 {
     font-size: 25px;
   }
 }
 
 @media (max-width: 1100px) {
-  .what{
+  .what {
     width: 350px;
   }
-  .percentages{
+  .percentages {
     /* background-color: red; */
     /* width: 400px; */
   }
-  .progressfill1{
+  .progressfill1 {
     /* width: 400px; */
-
   }
-  .progress{
+  .progress {
     width: 400px;
   }
-  .progress0{
-    width: 400px;
-
-  }
-  .proj1pic{
-    width: 500px;
-  }
-  .proj1text{
+  .progress0 {
     width: 400px;
   }
-  .proj2pic{
-    width: 500px;
-
-  }
-  .proj2text{
-    width: 400px;
-  }
-  .proj3pic{
-    width: 500px;
-  }
-  .proj3text{
+  .proj1pic {
     width: 450px;
   }
-  .proj4pic{
-    width: 500px;
+  .proj1text {
+    width: 400px;
   }
-  .proj4text{
+  .proj2pic {
     width: 450px;
   }
-  .proj5pic{
-    width: 500px;
+  .proj2text {
+    width: 400px;
   }
-  .proj5text{
+  .proj3pic {
     width: 450px;
   }
-  .form{
+  .proj3text {
+    width: 400px;
+  }
+  .proj4pic {
+    width: 450px;
+  }
+  .proj4text {
+    width: 400px;
+  }
+  .proj5pic {
+    width: 450px;
+    /* border-radius: 60px; */
+  }
+  .proj5text {
+    width: 400px;
+  }
+  .form {
     padding: 40px 40px 10px 40px;
   }
-  .textdiv{
+  .textdiv {
     width: 330px;
   }
 
-  .inps{
+  .inps {
     width: 500px;
   }
-  .inp1{
+  .inp1 {
     width: 180px;
   }
-  .inp2{
+  .inp2 {
     width: 180px;
   }
-  .inp1div{
+  .inp1div {
     width: 500px;
   }
-  .inp3{
+  .inp3 {
     width: 480px;
     height: 150px;
   }
-  .messageboxh1{
+  .messageboxh1 {
     font-size: 23px;
   }
-  .title{
+  .title {
     font-size: 35px;
   }
-  .para{
+  .para {
     font-size: 25px;
   }
-  .naseer{
+  .naseer {
     width: 320px;
+  }
+
+  .what h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 995px) {
+  .inps {
+    width: 450px;
+  }
+  .inp1 {
+    width: 180px;
+  }
+  .inp2 {
+    width: 180px;
+  }
+  .inp1div {
+    width: 450px;
+  }
+  .inp3 {
+    width: 425px;
+    height: 150px;
+  }
+  .messageboxh1 {
+    font-size: 23px;
+  }
+  .proj1pic {
+    width: 400px;
+  }
+  .proj1text {
+    width: 400px;
+  }
+  .proj2pic {
+    width: 400px;
+  }
+  .proj2text {
+    width: 400px;
+  }
+  .proj3pic {
+    width: 400px;
+  }
+  .proj3text {
+    width: 400px;
+  }
+  .proj4pic {
+    width: 400px;
+  }
+  .proj4text {
+    width: 400px;
+  }
+  .proj5pic {
+    width: 400px;
+  }
+  .proj5text {
+    width: 400px;
+  }
+  /* .proj1text h3 {
+    font-size: 17px;
+  }
+  .proj2text h3 {
+    font-size: 17px;
+  }
+  .proj3text h3 {
+    font-size: 17px;
+  }
+  .proj4text h3 {
+    font-size: 17px;
+  }
+  .proj5text h3 {
+    font-size: 17px;
+  } */
+}
+
+@media (max-width: 940px) {
+  .webdev {
+    width: 170px;
+    /* text-align: left; */
+  }
+  .naseer {
+    width: 300px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .para {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .proj1text h3 {
+    font-size: 18px;
+    /* width: 200px; */
+  }
+  .proj1text {
+    width: 350px;
+  }
+  .proj2text h3 {
+    font-size: 18px;
+  }
+  .proj2text {
+    width: 350px;
+  }
+  .proj3text h3 {
+    font-size: 18px;
+  }
+  .proj3text {
+    width: 350px;
+  }
+  .proj4text h3 {
+    font-size: 18px;
+  }
+  .proj4text {
+    width: 350px;
+  }
+  .proj5text h3 {
+    font-size: 18px;
+  }
+  .proj5text {
+    width: 350px;
+  }
+}
+
+@media (max-width: 922px) {
+  /* .form{
+    padding: 20px 20px 10px 20px;
+  } */
+  .inps {
+    width: 400px;
+  }
+  .inp1 {
+    width: 150px;
+  }
+  .inp2 {
+    width: 150px;
+  }
+  .inp1div {
+    width: 400px;
+  }
+  .inp3 {
+    width: 380px;
+    height: 150px;
+  }
+  .naseer {
+    width: 250px;
+  }
+  .projects {
+    width: 450px;
+  }
+  .btn1 {
+    width: 120px;
+    font-size: 13px;
+    height: 35px;
+  }
+  .btn2 {
+    width: 120px;
+    font-size: 13px;
+    height: 35px;
+  }
+  .btndiv {
+    width: 250px;
+  }
+  .progress {
+    width: 350px;
+  }
+  .progress0 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 875px) {
+  .textdiv {
+    width: 250px;
+  }
+  .what h1 {
+    font-size: 35px;
+  }
+  .proj1text h3 {
+    font-size: 18px;
+    /* width: 200px; */
+  }
+  .proj1text {
+    width: 300px;
+  }
+  .proj2text h3 {
+    font-size: 18px;
+  }
+  .proj2text {
+    width: 300px;
+  }
+  .proj3text h3 {
+    font-size: 18px;
+  }
+  .proj3text {
+    width: 300px;
+  }
+  .proj4text h3 {
+    font-size: 18px;
+  }
+  .proj4text {
+    width: 300px;
+  }
+  .proj5text h3 {
+    font-size: 18px;
+  }
+  .proj5text {
+    width: 300px;
+  }
+}
+
+@media (max-width: 835px) {
+  .progress {
+    width: 350px;
+  }
+  .progress0 {
+    width: 350px;
+  }
+  .what{
+    width: 260px;
   }
 }

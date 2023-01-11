@@ -21,7 +21,7 @@
   /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
 }
 
- /* .container.active{
+/* .container.active{
   background-color: red;
   color: blue;
   margin-top: 50px;
@@ -39,16 +39,37 @@
   display: flex;
   justify-content: space-between;
   width: 150px;
- 
 }
 
-.twitter:hover{
+.twitter:hover {
   transform: translateY(-5px);
   transition: 1s;
 }
 
-@media (max-width:1151px) {
-  .midiv{
+@media (max-width: 1151px) {
+  .midiv {
     width: 300px;
   }
+}
+
+@media (max-width: 861px) {
+  .midiv {
+    width: 280px;
+  }
+  .container {
+    width: 670px;
+    /* padding: 10px; */
+  }
+  .icondiv{
+    width: 130px;
+  }
+.container h1{
+  font-size: 23px;
+}
+.midiv a{
+  font-size: 14px;
+}
+.icondiv img{
+  width: 20px;
+}
 }

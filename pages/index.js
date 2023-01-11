@@ -175,7 +175,7 @@ export default function Home() {
         <div className={styles.proj2text}>
           <h1>Task Duty</h1>
           <h3>
-            This is a task mangager which manages daily tasks with easy to use
+            This is a task manager which manages daily tasks with easy to use
             interface. You can perform CRUD operation such as creating,updating
             and deleting tasks .It makes easy to stay on top of your to-do list
             and keep your tasks organized and up-to-date{" "}

@@ -38,7 +38,7 @@ const Navbar = () => {
   });
 
   return (
-    <div>
+    <div className={styles.first}>
       <div ref={navbarRef} className={`active ${styles.container}`}>
         <h1>Naseer</h1>
         <div className={styles.midiv}>
