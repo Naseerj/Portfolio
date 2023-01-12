@@ -1041,12 +1041,63 @@
 
 @media (max-width: 835px) {
   .progress {
-    width: 350px;
+    width: 320px;
   }
   .progress0 {
-    width: 350px;
+    width: 320px;
   }
   .what{
     width: 260px;
+  }
+  .para{
+    font-size: 20px;
+  }
+  .proj1pic {
+    width: 350px;
+  }
+  .proj1text {
+    width: 300px;
+  }
+  .proj1text h1{
+    font-size: 25px;
+  }
+  .proj2pic {
+    width: 350px;
+  }
+  .proj2text {
+    width: 300px;
+  }
+  .proj2text h1{
+    font-size: 25px;
+  }
+  .proj3pic {
+    width: 350px;
+  }
+  .proj3text {
+    width: 300px;
+  }
+  .proj3text h1{
+    font-size: 25px;
+  }
+  .proj4pic {
+    width: 350px;
+  }
+  .proj4text {
+    width: 300px;
+  }
+  .proj4text h1{
+    font-size: 25px;
+  }
+  .proj5pic {
+    width: 350px;
+  }
+  .proj5text {
+    width: 300px;
+  }
+  .proj5text h1{
+    font-size: 25px;
+  }
+  .webdev{
+    width: 130px;
   }
 }

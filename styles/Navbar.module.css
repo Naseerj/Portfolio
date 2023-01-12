@@ -73,3 +73,25 @@
   width: 20px;
 }
 }
+
+@media (max-width: 760px) {
+  .midiv {
+    width: 250px;
+  }
+  .container {
+    width: 670px;
+    /* padding: 10px; */
+  }
+  .icondiv{
+    width: 120px;
+  }
+.container h1{
+  font-size: 23px;
+}
+.midiv a{
+  font-size: 14px;
+}
+.icondiv img{
+  width: 20px;
+}
+}
