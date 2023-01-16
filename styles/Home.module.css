@@ -1264,3 +1264,134 @@
   font-size: 15px;
 }
 }
+
+@media (max-width: 717px) {
+  .usebtn button{
+    width: 60px;
+    font-size: 10px;
+  }
+  .direct2 h2 a{
+    font-size: 20px;
+  }
+  .direct2 img{
+    /* font-size: 20px; */
+    width: 20px;
+    margin-top: 7px;
+  }
+  .direct2{
+    align-items: center;
+    width: 140px;
+  }
+  .proj1pic {
+    width: 310px;
+  }
+  .proj1text {
+    width: 250px;
+    height: 200px;
+  }
+  .proj1text h1{
+    font-size: 20px;
+    margin: 0%;
+  }
+  .proj1text h3{
+    font-size: 13px;
+  }
+  .proj2pic {
+    width: 310px;
+  }
+  .proj2text {
+    width: 250px;
+  }
+  .proj2text h1{
+    font-size: 20px;
+  }
+  .proj2text h3{
+    font-size: 13px;
+  }
+  .proj3pic {
+    width: 310px;
+  }
+  .proj3text {
+    width: 250px;
+  }
+  .proj3text h1{
+    font-size: 20px;
+  }
+  .proj3text h3{
+    font-size: 13px;
+  }
+  .proj4pic {
+    width: 310px;
+  }
+  .proj4text {
+    width: 250px;
+  }
+  .proj4text h1{
+    font-size: 20px;
+  }
+  .proj4text h3{
+    font-size: 13px;
+  }
+  .proj5pic {
+    width: 310px;
+  }
+  .proj5text {
+    width: 250px;
+  }
+  .proj5text h1{
+    font-size: 20px;
+  }
+  .proj5text h3{
+    font-size: 13px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .textdiv{
+    text-align: center;
+    width: 100%;
+  }
+  .inp1 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+  }
+  .inp1::placeholder {
+    margin-left: 70px;
+  }
+  .inp2 {
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+  }
+  .inp3 {
+    width: 560px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+  }
+  .inps {
+    width: 600px;
+    margin-top: 10px;
+  }
+  .inp1div {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 590px;
+    /* padding: 20px; */
+  }
+  .btn3{
+    text-align: center;
+  }
+}

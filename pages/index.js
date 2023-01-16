@@ -158,7 +158,7 @@ export default function Home() {
             currencies. it displays crypto rates to let user the world's rate at
             a particular time
           </h3>
-          <div>
+          <div className={styles.usebtn}>
             <button>REACT</button>
             <button>API</button>
           </div>
