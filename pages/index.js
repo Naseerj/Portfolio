@@ -34,7 +34,7 @@ export default function Home() {
       <div className={styles.flex}>
         <div className={styles.what}>
           <h1>What I Do?</h1>
-          <h3>
+          <h3 className={styles.head}>
             I implement visual and interactive design.This includes the layout,
             visual design, and interactivity of the site. I can also implement
             server-side of sites. I also build APIS that allow the communication
@@ -180,7 +180,7 @@ export default function Home() {
             and deleting tasks .It makes easy to stay on top of your to-do list
             and keep your tasks organized and up-to-date{" "}
           </h3>
-          <div>
+          <div className={styles.usebtn2}>
             <button>REACT</button>
             <button>MONGODB</button>
             <button>NODE</button>
@@ -202,7 +202,7 @@ export default function Home() {
             dogecoin payment.It shows varieties of homes available,rating and
             how far they are.
           </h3>
-          <div>
+          <div className={styles.usebtn3}>
             <button>REACT</button>
           </div>
           <div className={styles.direct3}>
@@ -227,7 +227,7 @@ export default function Home() {
             operations for writers can be performed to create story, delete
             story and update. There is a section where you can read all stories
           </h3>
-          <div>
+          <div className={styles.usebtn4}>
             <button>REACT</button>
             <button>MONGODB</button>
             <button>NODE</button>
@@ -246,7 +246,7 @@ export default function Home() {
         <div className={styles.proj5text}>
           <h1>CRAPPO</h1>
           <h3>This is a cryptocurrency website</h3>
-          <div>
+          <div className={styles.usebtn5}>
             <button>REACT</button>
             <button>MONGODB</button>
             <button>NODE</button>

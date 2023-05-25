@@ -95,3 +95,25 @@
   width: 20px;
 }
 }
+
+@media (max-width: 670px) {
+  .midiv {
+    width: 230px;
+  }
+  .container {
+    width: 650px;
+    /* padding: 10px; */
+  }
+  .icondiv{
+    width: 100px;
+  }
+.container h1{
+  font-size: 20px;
+}
+.midiv a{
+  font-size: 13px;
+}
+.icondiv img{
+  width: 16px;
+}
+}
