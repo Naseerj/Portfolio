@@ -27,6 +27,9 @@
   margin-top: 50px;
 
 } */
+/* .collapse{
+  display: none;
+} */
 
 .midiv {
   width: 400px;
@@ -34,17 +37,44 @@
   justify-content: space-between;
   color: black;
 }
-
+  .mobilenav{
+  display: none;
+}
 .icondiv {
   display: flex;
   justify-content: space-between;
   width: 150px;
+  cursor: pointer;
+}
+.collapse{
+justify-content: space-around;
+display: block;
 }
 
 .twitter:hover {
   transform: translateY(-5px);
-  transition: 1s;
+  transition: 5ms;
 }
+.instagram:hover {
+  transform: translateY(-5px);
+  transition: 5ms;
+}.mail:hover {
+  transform: translateY(-5px);
+  transition: 5ms;
+  
+}.github:hover {
+  transform: translateY(-5px);
+  transition: 5ms;
+}
+
+.ham{
+  display: none;
+}
+
+.x{
+  display: none;
+}
+
 
 @media (max-width: 1151px) {
   .midiv {
@@ -117,3 +147,50 @@
   width: 16px;
 }
 }
+
+@media (max-width: 564px) {
+
+  .midiv{
+    display: none;
+
+    /* flex-direction: column; */
+    /* display: block; */
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .mobilenav{
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .ham{
+    display: block;
+  }
+  .active{
+    width: 80%;
+  }
+  .container{
+    width: 60%;
+  }
+  .collapse{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    /* .midiv{
+      display: block;
+    } */
+    /* background-color: red; */
+  }
+  .midiv a{
+    /* display: flex;
+    flex-direction: column; */
+    display: none;
+  }
+  .icondiv{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+/* .x{
+  display: block;
+} */

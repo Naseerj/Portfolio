@@ -2,7 +2,33 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Home() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_adonhs5",
+        "template_3nec8gn",
+        form.current,
+        "CseFcuLlyDknutpjc"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log('message sent')
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   // const app = "Ayo";
   // const app1 = app.substring(0, 3);
   // console.log(app1);
@@ -12,7 +38,7 @@ export default function Home() {
         <div className={styles.parawhole}>
           <h1 className={styles.title}>I am a developer.</h1>
           <p className={styles.para}>
-            Hii! I'm Naseer, a developer based in Lagos,Nigeria, I am constantly
+            Hii! I'm Naseer, a developer based in Lagos, Nigeria.I am constantly
             learning and adapting to the ever-evolving world of technology.I
             will love to work with you
           </p>
@@ -143,8 +169,8 @@ export default function Home() {
 
       <a href="" id="project"></a>
       <div className={styles.flex2}>
-        <div>
-          <h1>Latest Projects</h1>
+        <div className={styles.lastclass}>
+          <h1 >Latest Projects</h1>
           <p>Check out some of my latest projects with creative ideas </p>
         </div>
         <button className={styles.btn2}>See All Projects</button>
@@ -164,7 +190,9 @@ export default function Home() {
           </div>
           <div className={styles.direct2}>
             <h2>
-              <a href="https://timely-daffodil-f8e9a9.netlify.app/">See Project</a>
+              <a href="https://timely-daffodil-f8e9a9.netlify.app/">
+                See Project
+              </a>
             </h2>
             <img src="/arrow-right.svg" alt="" />
           </div>
@@ -247,13 +275,13 @@ export default function Home() {
           <h1>CRAPPO</h1>
           <h3>This is a cryptocurrency website</h3>
           <div className={styles.usebtn5}>
-            <button>REACT</button>
-            <button>MONGODB</button>
+            <button className={styles.rx}>REACT</button>
+            <button className={styles.mongoose}>MONGODB</button>
             <button>NODE</button>
           </div>
           <div className={styles.direct5}>
             <h2>
-              <a href="https://crappo-sable.vercel.app/">See Project</a>
+              <a href="https://crappo-sable.vercel.app/" target=" _blank">See Project</a>
             </h2>
             <img src="/arrow-right.svg" alt="" />
           </div>
@@ -265,21 +293,33 @@ export default function Home() {
         <div className={styles.textdiv}>
           <img className={styles.messagebox} src="/icon-5.svg" alt="" />
           <a href="" id="contact"></a>
-          <h1 className={styles.messageboxh1}>If you like what you see let's work together</h1>
+          <h1 className={styles.messageboxh1}>
+            If you like what you see let's work together
+          </h1>
           <p>
             I bring rapid solutions to make the life of my clients easier. Have
             any questions? Reach out to me from this contact form and will get
             back to you shortly
           </p>
         </div>
-        <form className={styles.inps} action="">
+        <form ref={form} className={styles.inps} action="" onSubmit={sendEmail}>
           <div className={styles.inp1div}>
-            <input className={styles.inp1} type="text" placeholder="Name*" />
-            <input className={styles.inp2} type="text" placeholder="Email*" />
+            <input
+              className={styles.inp1}
+              type="text"
+              placeholder="Name"
+              name="to_name"
+            />
+            <input
+              className={styles.inp2}
+              type="email"
+              placeholder="Email*"
+              name="from_name"
+            />
           </div>
           <textarea
             className={styles.inp3}
-            name=""
+            name="message"
             id=""
             cols="30"
             rows="10"

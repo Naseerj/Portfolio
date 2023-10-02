@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Kumbh+Sans:wght@400;700&family=Noto+Sans+Osmanya&display=swap"); */
+
 /* .container {
   padding: 0 2rem;
   background-color: green;
@@ -167,9 +169,14 @@
 }
 .title {
   font-size: 55px;
+  /* font-family: "inter", sans-serif; */
+  font-weight: 400;
 }
 .para {
   font-size: 25px;
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 .projects {
   display: flex;
@@ -190,15 +197,30 @@
 }
 .text1 {
   margin: 0;
+  font-family: "inter", sans-serif;
+  font-weight: 300;
 }
 .text2 {
   margin: 0;
+  font-family: "inter", sans-serif;
+  font-weight: 300;
 }
 .range1 {
   color: #d16b86;
   width: 400px;
   outline: #c7b1dd;
   text-decoration: none;
+}
+.what h1 {
+  font-family: "inter", sans-serif;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.head {
+  font-family: "inter", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
 }
 .pr {
   width: 500px;
@@ -279,6 +301,8 @@
 .flex10 {
   display: flex;
   justify-content: space-between;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
 }
 
 .progress0 {
@@ -342,6 +366,8 @@
   margin: 0;
   text-align: center;
   padding: 10px;
+  font-family: "inter", sans-serif;
+  font-weight: 300;
 }
 .webdevimg {
   width: 60px;
@@ -426,6 +452,7 @@
   background-color: #f6f7f9;
   border: 2px solid #d16b86;
   margin-top: 20px;
+  cursor: pointer;
 }
 .project1 {
   margin: 0 auto;
@@ -446,6 +473,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+}
+.proj1text h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
 }
 .project2 {
   margin: 0 auto;
@@ -470,6 +504,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.proj2text h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
 }
 .direct2 {
   display: flex;
@@ -505,6 +544,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.proj3text h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 .direct3 {
   display: flex;
@@ -542,6 +587,12 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+.proj4text h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
 .direct4 {
   display: flex;
   width: 180px;
@@ -578,6 +629,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.proj5text h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+.usebtn5 button {
+  /* border-radius: 2rem;
+  border: none; */
+  /* background-color: #9ec3e7; */
+  /* color: white;
+  background-color: rgb(101, 101, 232);
+  font-family: 'inter', sans-serif;
+  font-weight: 500; */
 }
 .direct5 {
   display: flex;
@@ -1757,14 +1824,728 @@
   }
   .usebtn5 {
     text-align: center;
+    background-color: red;
   }
-  .percentages{
+
+  .percentages {
     display: none;
   }
-  .flex{
+  .flex {
     display: block;
   }
-  .what h3{
+  .what h3 {
     width: 400px;
+  }
+  .naseer {
+    width: 180px;
+  }
+}
+
+@media (max-width: 580px) {
+  .inps {
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  .inps {
+    width: 430px;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .btn2 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 530px) {
+  .parawhole {
+    width: 330px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .what {
+  }
+  .head {
+  }
+  .what h3 {
+    width: 300px;
+  }
+  .flex {
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    /* text-align: center; */
+    justify-content: center;
+  }
+}
+
+@media (max-width: 510px) {
+  .inps {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .flex1 {
+    width: 220px;
+  }
+  .flex10 {
+    width: 220px;
+  }
+  .progress0 {
+    width: 220px;
+  }
+  .proj1pic {
+    width: 350px;
+  }
+  .proj1text {
+    width: 300px;
+    /* height: 180px; */
+  }
+  .proj1text h1 {
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj1text h3 {
+    width: 300px;
+    align-self: center;
+  }
+  .proj2pic {
+    width: 350px;
+  }
+  .proj2text {
+    width: 300px;
+  }
+  .proj2text h1 {
+    font-size: 16px;
+    align-self: center;
+    width: 100px;
+  }
+  /* .proj2text h1 {
+    font-size: 16px;
+  } */
+  .proj2text h3 {
+    align-self: center;
+    width: 300px;
+  }
+  .proj3pic {
+    width: 350px;
+  }
+  .proj3text {
+    width: 300px;
+
+    /* width: 220px; */
+  }
+  .proj3text h1 {
+    font-size: 16px;
+    align-self: center;
+    width: 100px;
+  }
+  .proj3text h3 {
+    width: 300px;
+    align-self: center;
+  }
+  .proj4pic {
+    width: 350px;
+  }
+  .proj4text {
+    /* width: 200px; */
+    width: 300px;
+  }
+  .proj4text h1 {
+    font-size: 17px;
+    align-self: center;
+    width: 100px;
+  }
+  .proj4text h3 {
+    /* font-size: 10px; */
+    width: 300px;
+    align-self: center;
+  }
+  .proj5pic {
+    width: 350px;
+  }
+  .proj5text {
+    width: 300px;
+  }
+  .proj5text h1 {
+    font-size: 16px;
+    align-self: center;
+    width: 100px;
+  }
+  .proj5text h3 {
+    width: 300px;
+  }
+  .hr {
+    width: 400px;
+  }
+  .inps {
+    width: 400px;
+  }
+  .form {
+    width: 360px;
+  }
+  .btn2 {
+    width: 90px;
+  }
+  .btndiv {
+    width: 200px;
+  }
+  /* .what {
+    width: 200px;
+  }
+  .what h1 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .what h3 {
+    font-size: 18px;
+  } */
+  .webdev {
+    width: 150px;
+    text-align: center;
+  }
+  .webdevimg {
+    width: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inps {
+    width: 330px;
+  }
+  .form {
+    width: 330px;
+  }
+  .proj1pic {
+    width: 300px;
+  }
+  .proj2pic {
+    width: 300px;
+  }
+  .proj3pic {
+    width: 300px;
+  }
+  .proj4pic {
+    width: 300px;
+  }
+  .proj5pic {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .inps {
+    width: 290px;
+  }
+  .form {
+    width: 290px;
+  }
+  .hr {
+    width: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .inps {
+    width: 250px;
+  }
+  .form {
+    width: 250px;
+    height: 700px;
+  }
+  .hr {
+    width: 300px;
+  }
+  .proj1pic {
+    width: 250px;
+  }
+  .proj2pic {
+    width: 250px;
+  }
+  .proj3pic {
+    width: 250px;
+  }
+  .proj4pic {
+    width: 250px;
+  }
+  .proj5pic {
+    width: 250px;
+  }
+  .proj1text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj1text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj1text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+  .proj2text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj2text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj2text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj3text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj3text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj3text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj4text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj4text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj4text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj5text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj5text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj5text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+  .webdev p{
+    font-size: 14px;
+    text-align: left;
+  }
+  .what h3 {
+    width: 250px;
+    font-size: 15px;
+  }
+  .webdev {
+    width: 140px;
+    text-align: center;
+  }
+  .webdevimg {
+    width: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .naseer{
+    width: 150px;
+  }
+  .projects{
+    width: 300px;
+  }
+  .para{
+    width: 290px;
+  }
+  .lastclass h1{
+    font-size: 21px;
+  }
+  .lastclass p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  .proj1pic {
+    width: 250px;
+  }
+  .proj2pic {
+    width: 250px;
+  }
+  .proj3pic {
+    width: 250px;
+  }
+  .proj4pic {
+    width: 250px;
+  }
+  .proj5pic {
+    width: 250px;
+  }
+  .proj1text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj1text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj1text h3 {
+    width: 250px;
+    font-size: 13px;
+    align-self: center;
+  }
+  .proj2text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj2text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj2text h3 {
+    width: 250px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj3text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj3text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj3text h3 {
+    width: 250px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj4text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj4text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj4text h3 {
+    width: 250px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj5text {
+    width: 250px;
+    /* height: 180px; */
+  }
+  .proj5text h1 {
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj5text h3 {
+    width: 300px;
+    font-size: 13px;
+    align-self: center;
+  }
+  .inps {
+    width: 220px;
+  }
+  .form {
+    width: 220px;
+    height: 700px;
+  }
+  .webdev {
+    width: 130px;
+    text-align: center;
+  }
+  .webdev h3{
+    font-size: 16px;
+  }
+  .webdevimg {
+    width: 35px;
+  }
+  .what h3 {
+    width: 220px;
+    font-size: 14.5px;
+    text-align: left;
+
+  }
+  
+}
+
+@media (max-width: 360px) {
+  .parawhole{
+    width: 300px;
+  }
+  .projects{
+    width: 250px;
+  }
+
+  .proj1pic {
+    width: 220px;
+  }
+  .proj2pic {
+    width: 220px;
+  }
+  .proj3pic {
+    width: 220px;
+  }
+  .proj4pic {
+    width: 220px;
+  }
+  .proj5pic {
+    width: 220px;
+  }
+  .proj1text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj1text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj1text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+  .proj2text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj2text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj2text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+
+  .proj3text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj3text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj3text h3 {
+    width: 230px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj4text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj4text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj4text h3 {
+    width: 230px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj5text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj5text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj5text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+ 
+}
+
+@media (max-width: 340px) {
+  .parawhole{
+    width: 300px;
+  }
+  .projects{
+    width: 250px;
+  }
+  .what h3 {
+    width: 200px;
+    font-size: 14.5px;
+  }
+  .webdev {
+    width: 120px;
+    text-align: center;
+  }
+  .webdev h3{
+    font-size: 15px;
+    text-align: left;
+  }
+  .webdevimg {
+    width: 35px;
+  }
+
+  .proj1pic {
+    width: 220px;
+  }
+  .proj2pic {
+    width: 220px;
+  }
+  .proj3pic {
+    width: 220px;
+  }
+  .proj4pic {
+    width: 220px;
+  }
+  .proj5pic {
+    width: 220px;
+  }
+  .proj1text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj1text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj1text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+  .proj2text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj2text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj2text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+
+  .proj3text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj3text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj3text h3 {
+    width: 230px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj4text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj4text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj4text h3 {
+    width: 230px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .proj5text {
+    width: 230px;
+    /* height: 180px; */
+  }
+  .proj5text h1 {
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+    width: 100px;
+  }
+  .proj5text h3 {
+    width: 230px;
+    font-size: 12px;
+    align-self: center;
+  }
+  .inps {
+    width: 190px;
+  }
+  .form {
+    width: 190px;
+    height: 700px;
+  }
+  .hr {
+    width: 250px;
+  }
+  .parawhole{
+    width: 260px;
+  }
+  .para{
+    width: 260px;
   }
 }
