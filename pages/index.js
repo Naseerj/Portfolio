@@ -5,7 +5,10 @@ import styles from "../styles/Home.module.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+/* eslint-disable @next/next/no-img-element */
+
 export default function Home() {
+
   const form = useRef();
 
   const sendEmail = (e) => {
