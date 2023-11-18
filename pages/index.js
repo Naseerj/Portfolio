@@ -8,7 +8,6 @@ import emailjs from "@emailjs/browser";
 /* eslint-disable @next/next/no-img-element */
 
 export default function Home() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,7 +23,7 @@ export default function Home() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log('message sent')
+          console.log("message sent");
         },
         (error) => {
           console.log(error.text);
@@ -131,40 +130,39 @@ export default function Home() {
           <img className={styles.webdevimg} src="/icon-1.svg" alt="" />
           <h3>Web Design</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            mollitia doloribus vitae error voluptatem ipsa ut eligendi facere
-            quidem commodi officia ipsam, in minima amet est labore veritatis
-            veniam ad.
+            Designing the web part of a project as a developer is an exciting
+            and rewarding task that allows you to contribute to the overall user
+            experience and functionality of a project. Ensuring design is
+            responsive, meaning it adapts well to different screen sizes and
+            devices.
           </p>
         </div>
         <div className={styles.webdev}>
           <img className={styles.webdevimg} src="/icon-2.svg" alt="" />
           <h3>Mobile Design</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            mollitia doloribus vitae error voluptatem ipsa ut eligendi facere
-            quidem commodi officia ipsam, in minima amet est labore veritatis
-            veniam ad.
+            Beginning with a mobile-first mindset.I design the mobile version of
+            your project before moving to larger screens. This approach ensures
+            that the essential features are prioritized for mobile users and
+            helps create a solid foundation for responsive design.
           </p>
         </div>
         <div className={styles.webdev}>
           <img className={styles.webdevimg} src="/icon-3.svg" alt="" />
           <h3>Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            mollitia doloribus vitae error voluptatem ipsa ut eligendi facere
-            quidem commodi officia ipsam, in minima amet est labore veritatis
-            veniam ad.
+            Understanding the project's objectives and gather detailed
+            requirements from clients. This involves discussions with clients,
+            end-users, and other relevant parties to define the scope,
+            functionalities, and constraints of the project
           </p>
         </div>
         <div className={styles.webdev}>
           <img className={styles.webdevimg} src="/icon-4.svg" alt="" />
           <h3>SEO</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-            mollitia doloribus vitae error voluptatem ipsa ut eligendi facere
-            quidem commodi officia ipsam, in minima amet est labore veritatis
-            veniam ad.
+            Certainly! SEO, or Search Engine Optimization, is a critical aspect
+            of web development and digital marketing.I keep improving myself in this aspect so as to create an easily acessible and well optimized  website for clients  
           </p>
         </div>
       </div>
@@ -173,7 +171,7 @@ export default function Home() {
       <a href="" id="project"></a>
       <div className={styles.flex2}>
         <div className={styles.lastclass}>
-          <h1 >Latest Projects</h1>
+          <h1>Latest Projects</h1>
           <p>Check out some of my latest projects with creative ideas </p>
         </div>
         <button className={styles.btn2}>See All Projects</button>
@@ -284,7 +282,9 @@ export default function Home() {
           </div>
           <div className={styles.direct5}>
             <h2>
-              <a href="https://crappo-sable.vercel.app/" target=" _blank">See Project</a>
+              <a href="https://crappo-sable.vercel.app/" target=" _blank">
+                See Project
+              </a>
             </h2>
             <img src="/arrow-right.svg" alt="" />
           </div>
